@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8d5d58c !important;
+}
+
+
+.navbar-dark .navbar-brand {
+    color: #f80000 !important; 
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #f80000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f80000 !important;
+}
+
+.btn-outline-success {
+    color: #f80000 !important;
+    border-color: #28a745;
+}
+
+#mainimg{
+    width: 99.85%;
+    z-index: -1;
+    opacity: 0.9;
+    margin: 1px;
+}
+
+#Ebutton {
+    background-color: rgb(167, 0, 0) !important;
+    height: 70px;
+    padding: 10px;
+    margin-top: 0px;
+    border: 5px solid crimson;
+}
+
+#Ebutton:hover {
+    background-color: rgb(64, 0, 167) !important;
+    transition: 0.3s;
+    height: 70px;
+    padding: 10px;
+    margin-top: 0px;
+    border: 5px solid crimson;
+    color: bisque;
+}
+
+#Ebutton a{
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
